@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-bar
+{
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 2rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+}
+.top-bar .logo
+{
+    display: flex;
+    align-items: center;
+    color: #EB5757;
+    gap: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.top-bar .logo i
+{
+    transform: scale(2);
+    border-radius: 6px;
+}
+.top-bar .logo .logo-text
+{
+    font-weight: 700;
+    font-size: 14px;
+}
+.search-container
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.search
+{
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+.search input
+{
+    border: none;
+    border-right: 1px solid #F2F2F2;
+    outline: none;
+    padding: 0.5rem 1rem;
+}
+.search i
+{
+    color: #EB5757;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+.stayss
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+}
+.stayss .h1
+{
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333333;
+}
+.stayss p
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #4F4F4F;
+}
+@media (max-width:1000px)
+{
+    .top-bar,.stayss
+    {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .top-bar
+    {
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 2rem;
+    }
+    .search
+    {
+        width: 80vw;
+    }
+    .search input
+    {
+        width: 50%;
+    }
+    .stayss .h1
+    {
+        font-size: 16px;
+    }
+}
