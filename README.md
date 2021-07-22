@@ -1,4 +1,4 @@
-# Input-Components-React
+# Windbnb-React
 
 This is basic input component Template Done by using _react_ and _CSS_ developed by **N. Sudarsan Kumar**
 ![](https://devchallenges.io/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fdevchallenges-1234.appspot.com%2Fo%2FchallengesDesigns%252FwindbnbThumbnail.png%3Falt%3Dmedia%26token%3D183d7d36-d216-4d30-9732-aa6e4ab0e8a5&w=750&q=75)
