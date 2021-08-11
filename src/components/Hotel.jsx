@@ -1,8 +1,10 @@
 import React from 'react'
 import './Hotel.css'
 export const Hotel = ({values, img, superHost, type, rating, title, maxGuests, beds, city, country}) => {
-    if(values.guests <= maxGuests && values.loc === city || values.loc === '')
+    console.log(values)
+    if(values.guests <= maxGuests && (values.loc === city || values.loc === ''))
     {
+        console.log(maxGuests)
         if(superHost === true)
         {
             return(
